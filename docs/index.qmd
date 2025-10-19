@@ -106,12 +106,12 @@ spreadsheets_blood <- spreadsheets_blood %>%
         ul_50 = "X.50.uL.1",
         ul_75 = "X.75.uL",
         ul_100 = "X.100.uL",
-        above_50ul = "X.100uL") %>%
+        above_100ul = "X.100uL") %>%
   mutate(under_50ul = ifelse(is.na(under_50ul), FALSE, TRUE),
          ul_50 = ifelse(is.na(ul_50), FALSE, TRUE),
          ul_75 = ifelse(is.na(ul_75), FALSE, TRUE),
          ul_100 = ifelse(is.na(ul_100), FALSE, TRUE),
-         above_50ul = ifelse(is.na(above_50ul), FALSE, TRUE))
+         above_100ul = ifelse(is.na(above_100ul), FALSE, TRUE))
 
 blood_stock <- spreadsheets_blood %>%
   group_by(Species) %>%
@@ -120,16 +120,16 @@ blood_stock <- spreadsheets_blood %>%
     ul_50      = sum(ul_50, na.rm = TRUE),
     ul_75      = sum(ul_75, na.rm = TRUE),
     ul_100     = sum(ul_100, na.rm = TRUE),
-    above_50ul = sum(above_50ul, na.rm = TRUE),
+    above_100ul= sum(above_100ul, na.rm = TRUE),
     total      = n()  )
 
 # 5 - Samples in stock table ----
 
-# # Publication format
+# Publication format
 stock_samples <- blood_stock %>%
   gt() %>%
   tab_header(title = paste0("Blood samples in stock - ", Sys.Date())) %>%
-  opt_table_font(font = "Times New Roman") %>%
+  opt_table_font(font = "Times New Roman") %>% 
   # Font
   tab_style(style = cell_text(weight = "bold"),
             locations = cells_column_labels()) %>%
