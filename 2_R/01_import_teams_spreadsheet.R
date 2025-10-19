@@ -76,5 +76,5 @@ stock_samples <- blood_stock %>%
 
 # Save
 gtsave( data = stock_samples,
-        filename = here::here("docs", "figures", "blood_stock.jpg"))
+        filename = here::here("docs", "figures", "blood_stock.png"))
 

@@ -147,7 +147,7 @@ stock_samples <- blood_stock %>%
   <figure>
     <img src="figures/blood_stock.png"
          alt="Blood samples stock table"
-         style="display: block; margin: 0 auto; width: auto; max-width: 950px; height: auto;">
+         style="display: block; margin: 0 auto; width: 100%; max-width: 100%; height: auto;">
     <figcaption style="text-align: center; font-style: italic; margin-top: 8px;">
       Table 1: Blood samples stock from shorebirds trapped into the Hunter estuary
     </figcaption>
