@@ -1,0 +1,171 @@
+---
+title: "STABLE ISOTOPES CLARIFY HOW FORAGING NICHES IS PARTITIONNED WITHIN MIGRATORY SHOREBIRDS IN THE HUNTER ESTUARY"
+date: last-modified
+date-format: "MMMM D, YYYY"
+css: styles.css
+format:
+  html:
+    code-line-numbers: true
+    page-layout: custom
+project:
+  type: website
+  output-dir: docs
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(here)
+```
+
+
+<p style="font-size: 0.7em; color: gray;"> Created on October 16, 2025 </p>
+
+## [*Maxime Marini, Andrea S. Griffin*]{style="font-size: 0.8em;"}
+
+\
+
+# [Material & Methods]{.smallcaps}
+
+1.  **Primary producers**
+
+<p style="font-size: 0.9em; color: gray;">
+
+*To be continued...*
+
+</p>
+
+2.  **Secondary consumers**
+
+<p style="font-size: 0.9em; color: gray;">
+
+*Shorebird populations are here studied to asses their foraging niches and see whether they are segregated. Blood samples are collected from individuals across different species to get analysed using stable isotopes methods.*
+
+</p>
+
+3.  **Stable isotopes (C/N/Su)**
+
+<p style="font-size: 0.9em; color: gray;">
+
+*To be continued...*
+
+</p>
+
+::: blockquote-blue
+Navigate the three different tabs below to get deeper into the [material & methods]{.smallcaps} used.
+:::
+
+::: panel-tabset
+## Close tabs
+
+## 1. Primary producers
+
+To be continued ...
+
+## 2. Secondary consumers
+
+Here below is a table displaying the blood samples (red cells) we currently have in stock. Aiming to keep the available material in track, so we can see whether it is feasible to go down stable isotopes analysis regarding what is required vs what we do have.
+It is likely required to have 15-20 individuals sampled for every bird species, with as many as possible species represented. Every sample must weight more than 9 mg once it is dried. Whole blood or Red cells are suitable.
+
+```{r 2 check blood sample available, message = FALSE, warning = FALSE, echo = FALSE, eval = TRUE}
+
+# 1 - Packages ----
+
+library(dplyr)
+library(here)
+library(gt)
+
+# 2 - Settings ----
+
+# Set WD
+# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) 
+
+# 3 - Import & Load data ----
+tryCatch({
+  write.csv(
+    readxl::read_excel("C:/Users/c3541851/The University of Newcastle/StudentGroupPhD - Louise Williams and Mattea Taylor - General/Bloods and feathers records/List of bird blood samples_last update_Aug25.xlsx",
+                       sheet = "Data sheet"),
+    file.path(here::here("1_data", "spreadsheets"), paste0(Sys.Date(), "-blood-teams.sheet", ".csv")),
+    row.names = FALSE
+  )
+}, error = function(e) {
+  write.csv(
+    readxl::read_excel("C:/Users/marin/The University of Newcastle/StudentGroupPhD - Louise Williams and Mattea Taylor - General/Bloods and feathers records/List of bird blood samples_last update_Aug25.xlsx",
+                       sheet = "Data sheet"),
+    file.path(here::here("1_data", "spreadsheets"), paste0(Sys.Date(), "-blood-teams.sheet", ".csv")),
+    row.names = FALSE
+  )
+})
+
+spreadsheets_blood <- read.csv(here::here("1_data", "spreadsheets", paste0(Sys.Date(), "-blood-teams.sheet.csv")))
+
+# 4 - Filter & Sort data ----
+
+spreadsheets_blood <- spreadsheets_blood %>%
+  filter(Blood. == "Y")  %>%
+  rename(under_50ul = "X.50.uL",
+        ul_50 = "X.50.uL.1",
+        ul_75 = "X.75.uL",
+        ul_100 = "X.100.uL",
+        above_50ul = "X.100uL") %>%
+  mutate(under_50ul = ifelse(is.na(under_50ul), FALSE, TRUE),
+         ul_50 = ifelse(is.na(ul_50), FALSE, TRUE),
+         ul_75 = ifelse(is.na(ul_75), FALSE, TRUE),
+         ul_100 = ifelse(is.na(ul_100), FALSE, TRUE),
+         above_50ul = ifelse(is.na(above_50ul), FALSE, TRUE))
+
+blood_stock <- spreadsheets_blood %>%
+  group_by(Species) %>%
+  summarise(
+    under_50ul = sum(under_50ul, na.rm = TRUE),
+    ul_50      = sum(ul_50, na.rm = TRUE),
+    ul_75      = sum(ul_75, na.rm = TRUE),
+    ul_100     = sum(ul_100, na.rm = TRUE),
+    above_50ul = sum(above_50ul, na.rm = TRUE),
+    total      = n()  )
+
+# 5 - Samples in stock table ----
+
+# # Publication format
+stock_samples <- blood_stock %>%
+  gt() %>%
+  tab_header(title = paste0("Blood samples in stock - ", Sys.Date())) %>%
+  opt_table_font(font = "Times New Roman") %>%
+  # Font
+  tab_style(style = cell_text(weight = "bold"),
+            locations = cells_column_labels()) %>%
+  tab_options(table.font.size = pct(90),
+              heading.title.font.size = px(16))
+
+# # Save
+# gtsave( data = stock_samples,
+#         filename = here::here("docs", "figures", "blood_stock.jpg"))
+
+```
+
+
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh;">
+  <figure>
+    <img src="figures/blood_stock.png"
+         alt="Blood samples stock table"
+         style="display: block; margin: 0 auto; width: auto; max-width: 950px; height: auto;">
+    <figcaption style="text-align: center; font-style: italic; margin-top: 8px;">
+      Table 1: Blood samples stock from shorebirds trapped into the Hunter estuary
+    </figcaption>
+  </figure>
+</div>
+
+
+
+## 3. Stable isotopes (C/N/Su)
+
+To be continued ...
+
+---
+
+:::
+
+
+***Availability***
+
+*The analysis are ran through R version 4.5.1 (2025-06-13 ucrt) -- "Great Square Root" and the platform: x86_64-w64-mingw32/x64.*
+

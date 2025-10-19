@@ -1,0 +1,126 @@
+"Species","Date","Location","Flag","Blood?","Feathers?","<50 uL","~50 uL","~75 uL","~100 uL",">100uL","Comment"
+"Red-necked Avocet",2022-08-11,"Stockton Sandspit","HAM","Y","N",NA,NA,NA,NA,NA,NA
+"Red-necked Avocet",2022-08-11,"Stockton Sandspit","HAN","Y","N",NA,NA,NA,NA,NA,NA
+"Curlew Sandpiper",2022-12-03,"Stockton Sandspit","BAC","Y","Y",NA,"x #2",NA,NA,NA,NA
+"Curlew Sandpiper",2022-12-03,"Stockton Sandspit","BAA","Y","Y",NA,"x #3",NA,NA,NA,NA
+"Curlew Sandpiper",2022-12-03,"Stockton Sandspit","BAB","Y","Y","x #4 (close)",NA,NA,NA,NA,NA
+"Eastern Curlew",2022-12-03,"Stockton Sandspit","AAB","Y","Y","x (close)",NA,NA,NA,"x",NA
+"Bar-tailed Godwit",2023-02-01,"Stockton Sandspit","EAR","Y","Y",NA,NA,"x #15 (almost 100)",NA,NA,NA
+"Bar-tailed Godwit",2023-02-01,"Stockton Sandspit","EAS","Y","Y",NA,NA,"x #4",NA,NA,NA
+"Bar-tailed Godwit",2023-03-04,"Stockton Sandspit","EAT","Y","Y",NA,NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2023-03-04,"Stockton Sandspit","EAV","Y","Y",NA,NA,NA,NA,"x >200 (2 vials - #5 <50)",NA
+"Bar-tailed Godwit",2023-03-04,"Stockton Sandspit","EAU","Y","Y",NA,NA,"x #8 & #10",NA,NA,NA
+"Bar-tailed Godwit",2023-03-04,"Stockton Sandspit","EAW","Y","Y",NA,NA,"x (almost 100)",NA,NA,NA
+"Bar-tailed Godwit",2023-03-04,"Stockton Sandspit","EAX","Y","Y",NA,NA,NA,NA,"x #11",NA
+"Curlew Sandpiper",2023-03-04,"Stockton Sandspit","BAD","Y","Y",NA,NA,NA,NA,"x <200",NA
+"Masked Lapwing",2023-03-04,"Stockton Sandspit","HAS","Y","Y",NA,"x #15",NA,NA,NA,NA
+"Masked Lapwing",2023-03-04,"Stockton Sandspit","HAT","Y","Y",NA,NA,NA,NA,"x #16 ~200",NA
+"Masked Lapwing",2023-03-04,"Stockton Sandspit","HAU","Y","Y","x #17",NA,NA,NA,NA,NA
+"Masked Lapwing",2023-03-04,"Stockton Sandspit","HAV","Y","Y",NA,NA,NA,NA,"x #18 + #19 ~200",NA
+"Pacific Golden Plover",2023-03-04,"Stockton Sandspit","DAC","Y","Y",NA,NA,NA,NA,"x #12",NA
+"Pacific Golden Plover",2023-03-04,"Stockton Sandspit","DAD","Y","Y",NA,NA,"x #14",NA,NA,NA
+"Red-necked Avocet",2023-03-04,"Stockton Sandspit","HAP","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2023-03-18,"Stockton Sandspit","EAY","Y","N","x (close)",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2023-03-18,"Stockton Sandspit","EAZ","Y","Y","x",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2023-03-18,"Stockton Sandspit","EBA","Y","Y",NA,NA,NA,NA,"x <200",NA
+"Bar-tailed Godwit",2023-03-18,"Stockton Sandspit","EBB","Y","Y",NA,NA,NA,NA,"x <200",NA
+"Bar-tailed Godwit",2023-03-18,"Stockton Sandspit","EBC","Y","Y",NA,NA,NA,"x",NA,NA
+"Bar-tailed Godwit",2023-03-18,"Stockton Sandspit","EBD","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Black-winged Stilt",2023-03-18,"Stockton Sandspit","HAW","Y","N",NA,NA,NA,NA,"x >200",NA
+"Black-winged Stilt",2023-03-18,"Stockton Sandspit","HAX","Y","N",NA,NA,"x (almost 100)",NA,NA,NA
+"Black-winged Stilt",2023-03-18,"Stockton Sandspit","HAY","Y","N",NA,NA,NA,"x",NA,NA
+"Eastern Curlew",2023-03-18,"Stockton Sandspit","AAE","Y","Y","x",NA,NA,NA,NA,NA
+"Black-winged Stilt",2023-08-29,"Stockton Sandspit","HAZ","Y","Y",NA,NA,"x (almost 100)",NA,NA,NA
+"Black-winged Stilt",2023-08-29,"Stockton Sandspit","HBA","Y","Y","x",NA,NA,NA,NA,NA
+"Black-winged Stilt",2023-08-29,"Stockton Sandspit","HBB","Y","Y",NA,NA,NA,"x",NA,NA
+"Black-winged Stilt",2023-08-29,"Stockton Sandspit","HBC","Y","Y","x",NA,NA,NA,NA,NA
+"Sharp-tailed Sandpiper",2023-09-27,"Hexham Pipeline Track","CAA","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Masked Lapwing",2023-10-09,"Stockton Sandspit","OAB","Y","Y","x",NA,NA,NA,NA,NA
+"Red-capped Plover",2023-10-09,"Stockton Sandspit","ABB","Y","Y","x",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2023-10-25,"Stockton Sandspit","EBH","Y","Y","x",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2023-10-25,"Stockton Sandspit","EBJ","Y","Y","x",NA,NA,NA,NA,NA
+"Red-necked Avocet",2023-10-25,"Stockton Sandspit","HBD","Y","Y",NA,NA,NA,"x #36",NA,NA
+"Red-necked Avocet",2023-10-25,"Stockton Sandspit","HCA","Y","Y",NA,NA,NA,NA,"x >200",NA
+"Red-necked Avocet",2023-10-25,"Stockton Sandspit","HCB","Y","Y",NA,NA,"x",NA,NA,NA
+"Red-necked Avocet",2023-10-25,"Stockton Sandspit","HCC","Y","Y",NA,NA,"x",NA,NA,NA
+"Red-necked Avocet",2023-10-25,"Stockton Sandspit","HCD","Y","Y",NA,NA,NA,NA,"x",NA
+"Pacific Golden Plover",2023-11-07,"Stockton Sandspit","DAE","Y","Y",NA,NA,"x",NA,NA,NA
+"Pacific Golden Plover",2023-11-07,"Stockton Sandspit","DAH","Y","Y",NA,NA,"x",NA,NA,NA
+"Pacific Golden Plover",2023-11-07,"Stockton Sandspit","DAJ","Y","Y",NA,"x",NA,NA,NA,NA
+"Pacific Golden Plover",2023-11-07,"Stockton Sandspit","DAK","Y","Y","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-11-07,"Stockton Sandspit","DAL","Y","Y",NA,NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-11-07,"Stockton Sandspit","DAM","Y","Y","x",NA,NA,NA,NA,NA
+"Masked Lapwing",2023-11-22,"Stockton Sandspit","OAC","Y","Y",NA,"x",NA,NA,NA,NA
+"Masked Lapwing",2023-11-22,"Stockton Sandspit","OAD","Y","N","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-11-22,"Stockton Sandspit","DAP","Y","Y",NA,NA,NA,NA,"x",NA
+"Red Knot",2023-11-22,"Stockton Sandspit","CAB","Y","Y","x",NA,NA,NA,NA,NA
+"Red Knot",2023-11-22,"Stockton Sandspit","CAC","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Red Knot",2023-11-22,"Stockton Sandspit","CAD","Y","Y","x",NA,NA,NA,NA,NA
+"Red Knot",2023-11-22,"Stockton Sandspit","CAE","Y","Y",NA,"x",NA,NA,NA,NA
+"Curlew Sandpiper",2023-12-23,"Stockton Sandspit","BAJ","Y","Y",NA,"x",NA,NA,NA,NA
+"Curlew Sandpiper",2023-12-23,"Stockton Sandspit","BAK","Y","Y","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-12-23,"Stockton Sandspit","DAR","Y","N","x (close)",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-12-23,"Stockton Sandspit","DAS","Y","N","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-12-23,"Stockton Sandspit","DAT","Y","N","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-12-23,"Stockton Sandspit","DAU","Y","N","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-12-23,"Stockton Sandspit","DAV","Y","N","x (close)",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2023-12-23,"Stockton Sandspit","DAW","Y","N",NA,NA,NA,NA,"x",NA
+"Sharp-tailed Sandpiper",2023-12-23,"Stockton Sandspit","BAH","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Curlew Sandpiper",2024-01-20,"Stockton Sandspit","BAL","Y","Y","x",NA,NA,NA,NA,NA
+"Curlew Sandpiper",2024-01-20,"Stockton Sandspit","BAM","Y","Y","x",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBE","Y","Y",NA,NA,NA,"x",NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBH","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBJ","Y","Y",NA,"x",NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBK","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBL","Y","Y",NA,"x",NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBM","Y","Y","x (close)",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBN","Y","Y",NA,"x",NA,NA,NA,NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBP","Y","Y",NA,NA,NA,NA,"x >200",NA
+"Bar-tailed Godwit",2024-08-18,"Stockton Sandspit","HBR","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Red Knot",2024-08-18,"Stockton Sandspit","DBA","Y","Y",NA,NA,NA,"x",NA,NA
+"Pacific Golden Plover",2024-09-29,"Stockton Sandspit","DBB","Y","Y",NA,NA,NA,NA,NA,NA
+"Curlew Sandpiper",2024-09-29,"Stockton Sandspit","BAJ",NA,"Y",NA,NA,NA,NA,NA,NA
+"Curlew Sandpiper",2024-09-29,"Stockton Sandspit","BAN",NA,"Y",NA,NA,NA,NA,NA,"RETRAP"
+"Pacific Golden Plover",2024-11-24,"Stockton Sandspit","DAE","Y","Y",NA,NA,"x",NA,NA,"RETRAP"
+"Pacific Golden Plover",2024-11-24,"Stockton Sandspit","DBC","Y","Y",NA,NA,"x",NA,NA,NA
+"Masked Lapwing",2024-11-24,"Stockton Sandspit","HBS","Y","Y","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2024-11-24,"Stockton Sandspit","DBD","Y","Y","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2024-11-24,"Stockton Sandspit","DBE","Y","Y",NA,NA,NA,NA,"x <200",NA
+"Pacific Golden Plover",2024-11-24,"Stockton Sandspit","DBH","Y","Y",NA,NA,NA,"x",NA,NA
+"Curlew Sandpiper",2025-01-12,"Stockton Sandspit","BAP","Y","Y",NA,NA,"x",NA,NA,NA
+"Pacific Golden Plover",2025-01-12,"Stockton Sandspit","DBJ","Y","Y","x",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2025-01-12,"Stockton Sandspit","DBK","Y","Y",NA,NA,NA,"x",NA,NA
+"Pacific Golden Plover",2025-01-12,"Stockton Sandspit","DBL","Y","Y","x",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2024-09-02,"Stockton Sandspit","EBL","Y","Y",NA,"X",NA,NA,NA,NA
+"Pacific Golden Plover",2024-09-02,"Stockton Sandspit","DBM","Y","Y",NA,NA,NA,"X",NA,NA
+"Pacific Golden Plover",2024-09-02,"Stockton Sandspit","DBN","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Pacific Golden Plover",2024-09-02,"Stockton Sandspit","DBH","Y","Y",NA,NA,NA,"X",NA,"RETRAP"
+"Pacific Golden Plover",2024-09-02,"Stockton Sandspit","DBP",NA,"Y",NA,NA,NA,NA,NA,NA
+"Pacific Golden Plover",2024-09-02,"Stockton Sandspit","DBR","Y","Y","X",NA,NA,NA,NA,NA
+"Pacific Golden Plover",2024-09-02,"Stockton Sandspit","DBS","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Masked Lapwing",2024-09-02,"Stockton Sandspit","OAJ","Y","Y","X",NA,NA,NA,NA,NA
+"Masked Lapwing",2024-09-02,"Stockton Sandspit","OAH","Y","Y",NA,"X",NA,NA,NA,NA
+"Masked Lapwing",2024-09-02,"Stockton Sandspit","OAE","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Masked Lapwing",2024-09-02,"Stockton Sandspit","OAK","Y","Y",NA,NA,"X",NA,NA,NA
+"Terek Sandpiper",2025-03-09,"Stockton Sandspit","CAH","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBT","Y",NA,NA,NA,NA,NA,"X <200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBT","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBZ","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBM","Y","Y",NA,NA,NA,"X",NA,NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBU","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HCE","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBY","Y","Y",NA,NA,"X",NA,NA,NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBP","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBU (1)","Y","Y","X",NA,NA,NA,NA,NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBV","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBV","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBN","Y","Y",NA,"X",NA,NA,NA,NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBW","Y",NA,NA,NA,NA,NA,"X <200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBX","Y","Y",NA,NA,"X",NA,NA,NA
+"Grey-tailed Tattler",2025-03-09,"Stockton Sandspit","DBU","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBX","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBR","Y","Y",NA,NA,NA,NA,"X <200",NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBW","Y","Y",NA,NA,NA,NA,"X >200",NA
+"Red-necked Avocet",2025-03-09,"Stockton Sandspit","HBU (1)","Y","Y","X",NA,NA,NA,NA,NA
+"Bar-tailed Godwit",2025-03-09,"Stockton Sandspit","EBS","Y","Y","X",NA,NA,NA,NA,NA
+"Grey-tailed Tattler",2025-03-09,"Stockton Sandspit","DBT","Y","Y",NA,"X",NA,NA,NA,NA
